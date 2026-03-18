@@ -113,4 +113,9 @@ button {
     color: #00c379;
     text-decoration: none;
 }
- 
+@media screen and (max-width: 600px) {
+    aside, section, article {
+        width: 100%;
+        float: none;
+    }
+}   
