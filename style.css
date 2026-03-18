@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background: #fff;
+    padding: 3rem;
+}
+
+.form {
+    width: 100%;
+    max-width: 500px;
+}
+.form h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+.form-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group select {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.terms label {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+button {
+    width: 100%;
+    background: #00c379;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.right {
+    width: 50%;
+    background: url('opay-registration.png') no-repeat center center/cover;
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+} 
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 3rem;
+    color: #fff;
+    text-align: left;
+    max-width: 400px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 2rem;
+} 
+
+.overlay h3 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.overlay h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem 0 1rem;
+}
+
+.overlay p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.signin a {
+    color: #00c379;
+    text-decoration: none;
+}
+ 
